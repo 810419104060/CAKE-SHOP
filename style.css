@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ /* navbar */
+
+nav{
+    background-color: hsl(20, 90%, 45%);
+    padding: 20px;
+}
+
+
+ul,li,h4{
+    display: inline;
+    
+}
+ul{
+    margin-left: 65%;
+
+}
+li{
+    color: rgb(248, 246, 246);
+    cursor: pointer;
+    word-spacing:20px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+ /* carousel slider */
+
+ #carouselExampleIndicators {
+    overflow: hidden;
+    display: inline-flex;
+    margin-left: 400px;
+    padding-left: 100px;
+}
+
+.carousel-inner {
+    border-radius: 40px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+
+ /* product grid */
+
+.product{
+    display: inline;
+    padding-left: 5px;
+
+}
+.product{
+    transition: transform .2s;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+}
+.box:hover{
+    transform:scale(1.1);
+}
+
+.box{
+    display: inline-block;
+    width: 370px;
+padding-left: 5px;
+}
+.box:hover{
+    color: black;
+    cursor: pointer;
+}
+.our{
+    background-color: #1a242f;
+    padding: 10px;
+    color: white;
+
+}
+
+
+ /* fooder */
+
+.footer{
+    padding-top:50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    background: hsl(20, 90%, 45%);
+    position: static;
+    padding-left:500px;
+}
+.footer-content p{
+    color: #d6d6d6;
+}
+.footer-content h3{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content h3{
+    padding-right: 70px;
+    font-size: 20px;
+}
+.footer-content p{
+    padding-right: 70px;
+    font-size: 10px;
+}
+.footer-content h4{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+}
+.add{
+
+    margin-top: 1.0rem;
+
+}
+.icons a{
+display: inline-block;
+margin-right: 7px;
+transition: all.40s ease;
+padding-bottom: 20px;
+}
+.icons a:hover{
+    transform: translateY(-3px) translateY(-5px);
+    cursor: pointer;
+}
+
+.footer-content li{
+    margin: bottom 10px;
+}
+.footer-content li{
+    margin-top: 16px;
+    display: block;
+    color: #d6d6d6;
+    font-weight: 400;
+    font-size: 15px;
+    transition: all.40s ease;
+    
+}
+.footer-content li:hover{
+color: hsl(20, 90%, 45%);
+transform: translateY(-3px) translateY(-5px); 
+cursor: pointer;
+ }
+/* .footer-content p:hover{
+    color:hsl(20, 90%, 45%);
+    transform: translateY(-3px) translateY(-5px);
+    cursor: pointer;
+    } */ 
+.copyright{
+    color: rgb(251, 254, 255);
+    text-align:center;
+    padding-left:500px;
+    width:800px;
+}
